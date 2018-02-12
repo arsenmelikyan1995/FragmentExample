@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/button_fragment"
+        android:name="com.example.arsen.fragmentexample.ButtonFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/button_layout" />
+
+    <fragment
+        android:layout_marginLeft="180sp"
+        android:id="@+id/image_fragment"
+        android:name="com.example.arsen.fragmentexample.ImageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/image_layout" />
+
+</RelativeLayout>
